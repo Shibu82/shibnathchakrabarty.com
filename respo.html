@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive web site</title>
+	<link rel="stylesheet" href="style1.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+	<section class="header">
+		<nav>
+			<a href="respo.html"><img src="image/Logo%201.png"></a>
+		
+		<div class="nav-links" id="navlinks">
+          
+               <i class="fa fa-times" onclick = "hideMenu()"></i>
+			<ul>
+				<li><a href="">About Me</a></li>
+				<li><a href="">Gallery</a></li>
+				<li><a href="">Course</a></li>
+				<li><a href="">Join Me</a></li>
+				<li><a href="">Contact Me</a></li>
+			</ul>
+		</div>
+           
+                <i class="fa fa-bars"  onclick = "showMenu()"></i>
+                
+            
+		</nav>
+        <div class="letter-box">
+            <h1>Wel Come To My Website</h1>
+            <p>You can learn from my website<span> HTML | Java Script | CSS</span> Basic from Advance....</p>
+            <a href="" class="hero-btn">Viste to Know More</a>
+        </div>
+    </section>
+    
+    
+    <!---------------Course--------->
+    
+    <section class="course">
+        <h1>We Offering for You</h1>
+        <p>If you Join with us then we Provide you |HTML|CSS|JavaScript| from basic to Advance</p>
+        
+        
+        <div class="row">
+            <div class="coursr-col">
+             <h3> HTML</h3>  
+                <p>Starting Course from 12/06/2025
+                Online Course for Rs.1000/-.
+                We Will Cirtified after the Course.
+                Offline Course also available.</p>
+                
+                
+            </div>
+            <div class="coursr-col">
+            <h3> Java Script</h3>  
+                <p>Starting Course from 12/06/2025
+                Online Course for Rs.2100/-.
+                We Will Cirtified after the Course.
+                Offline Course also available.</p></div>
+            <div class="coursr-col">
+            <h3> CSS</h3>  
+                <p>Starting Course from 12/06/2025
+                Online Course for Rs.5500/-
+                We Will Cirtified after the Course.
+                Offline Course also available.</p></div>
+        
+        
+        
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </section>
+    
+    
+    
+	
+</body>
+    
+    
+    
+    
+        <!-----------Java Script here--------------->
+   
+    <script>
+    var navlinks = document.getElementById("navlinks");
+        
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+        
+    </script>
+
+
+
+
+
+
+</html>
